@@ -9,6 +9,5 @@ export const omit = (obj, ...fields) => {
   fields.forEach((field) => {
     delete newObj[field];
   });
-
   return newObj;
 };
